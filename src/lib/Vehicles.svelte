@@ -174,12 +174,12 @@
 	{#if modal.shown}
 		{#if modal.prop === 'dzwig'}
 			<Modal title={modal.title} on:click={handleCloseModal}>
-				<div class="flex flex-col">
+				<div class="mx-auto flex flex-col">
 					<div class="grid grid-cols-2 gap-2">
 						<img
 							src="./vehicles/dzwig/dzwig1.webp"
 							alt="Dźwig Liebherr LTM 1030"
-							class="w-full rounded-lg object-cover"
+							class="mt-28 h-[55%] rotate-90 rounded-lg object-cover"
 						/>
 						<img
 							src="./vehicles/dzwig/dzwig2.webp"
